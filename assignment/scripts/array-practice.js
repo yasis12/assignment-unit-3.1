@@ -48,7 +48,7 @@ console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
 
-favoriteFoods.push('Mac & Cheese');
+favoriteFoods.push('mac & cheese');
 console.log('added favorite food at the end: ', favoriteFoods);
 
 // Example: Remove the last animal by using Array.pop
@@ -84,14 +84,14 @@ console.log('The food is now: ', favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
-let newFavoriteFood = 'Tacos';
+let newFavoriteFood = 'tacos';
 favoriteFoods[1] = newFavoriteFood;
 
 console.log('New Favorite Foods: ', favoriteFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
-favoriteFoods.push('Rice & Beans') // pushed in more food at end of array to see if its working 
+favoriteFoods.push('rice & beans') // pushed in more food at end of array to see if its working 
 //this one is hard
 favoriteFoods.sort(); // this is supposed to sort them alphabetially but it does not
 console.log('alphabetical: ', favoriteFoods);
